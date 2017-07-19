@@ -1,0 +1,66 @@
+.red {
+	color: #940f15;
+}
+
+.red-bg {
+	background-color: #940f15;
+}
+
+.cream {
+	color: #ebead9;
+}
+
+.cream-bg {
+	background-color: #ebead9;
+}
+
+.light-blue {
+	color: #a4b6c1;
+}
+
+.light-blue-bg {
+	background-color: #a4b6c1;
+}
+
+.blue {
+	color: #2e598f;
+}
+
+.blue-bg {
+	background-color: #2e598f;
+}
+
+.dark-blue {
+	color: #0c2141;
+}
+
+.dark-blue-bg {
+	background-color: #0c2141;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

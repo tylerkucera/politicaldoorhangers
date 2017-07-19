@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://politicaldoorhangers.com/index.html</loc>
+    <lastmod>2017-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://politicaldoorhangers.com/phone/index.html"/>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/door.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/star.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/mailbox-2.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/capital-2.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://politicaldoorhangers.com/about-us.html</loc>
+    <lastmod>2017-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://politicaldoorhangers.com/phone/about-us.html"/>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/capital-2.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://politicaldoorhangers.com/testimonials.html</loc>
+    <lastmod>2017-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://politicaldoorhangers.com/phone/testimonials.html"/>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/capital-2-crop-u258.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/doorhanger-crop-u1566.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/forestcity-logo-crop-u2963.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/connally-dh.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://politicaldoorhangers.com/images/sammiller-signature-crop-u4480.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>

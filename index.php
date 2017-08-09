@@ -1,13 +1,15 @@
 <!DOCTYPE html>
+<?php $fileName = "index"; ?>
+
 <html lang="en-US">
     <head>
         <title>Political Doorhangers</title>
-        <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/main.css?1"/>
+        <?php include_once("header.php");?>
     </head>
 
-    <body class="cream-bg">
+    <body>
         <?php include_once("navbar.php");?>
 
     </body>
 </html>
+

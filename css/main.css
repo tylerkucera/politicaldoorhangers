@@ -1,3 +1,11 @@
+* {
+    font-family: 'Manuale', serif;
+}
+
+body {
+    background: #a4b6c1;
+}
+
 .red {
 	color: #940f15;
 }
@@ -58,9 +66,10 @@ ul.navbar {
 }
 
 .navbar li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #ebead9;
+    color: #0c2141;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #0c2141;
 }

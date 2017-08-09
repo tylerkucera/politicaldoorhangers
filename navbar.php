@@ -1,16 +1,14 @@
-<ul class="navbar dark-blue-bg">
+<ul class="navbar blue-bg">
 	<li>
-		<a href="testimonials.php">Testimonials</a>
+		<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="testimonials.php">Testimonials</a>
 	</li>
 	<li>
-		<a href="contact.php">Contact</a>
+		<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="contact.php">Contact</a>
 	</li>
 	<li>
-		<a href="about.php">About Us</a>
+		<a class="<?php if($fileName == "about") echo 'active'; ?>" href="about.php">About Us</a>
 	</li>
 	<li>
-		<a href="index.php">Home</a>
+		<a class="<?php if($fileName == "index") echo 'active'; ?>" href="index.php">Home</a>
 	</li>
 </ul>
-
-<?php echo(basename(__FILE__, '.php')); ?>

@@ -1,4 +1,4 @@
-<ul class="navbar blue-bg">
+<ul class="navbar">
 	<li>
 		<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="testimonials.php">Testimonials</a>
 	</li>

@@ -1,49 +1,9 @@
 * {
-    font-family: 'Manuale', serif;
+    font-family: 'Crimson Text', serif;
 }
 
 body {
-    background: #a4b6c1;
-}
-
-.red {
-	color: #940f15;
-}
-
-.red-bg {
-	background-color: #940f15;
-}
-
-.cream {
-	color: #ebead9;
-}
-
-.cream-bg {
-	background-color: #ebead9;
-}
-
-.light-blue {
-	color: #a4b6c1;
-}
-
-.light-blue-bg {
-	background-color: #a4b6c1;
-}
-
-.blue {
-	color: #2e598f;
-}
-
-.blue-bg {
-	background-color: #2e598f;
-}
-
-.dark-blue {
-	color: #0c2141;
-}
-
-.dark-blue-bg {
-	background-color: #0c2141;
+    background: #FFF9FB;
 }
 
 ul.navbar {
@@ -53,23 +13,65 @@ ul.navbar {
     overflow: hidden;
 }
 
+.navbar {
+    background: #4B88A2;
+}
+
 .navbar li {
     float: right;
 }
 
 .navbar li a {
     display: block;
-    color: white;
+    color: #FFF9FB;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar li a:hover:not(.active) {
-    background-color: #ebead9;
-    color: #0c2141;
+    background-color: #D3D4D9;
+    color: #BB0A21;
 }
 
 .active {
-    background-color: #0c2141;
+    background-color: #203b46;
+    color: #252627;
+}
+
+.main-body h1 {
+    text-align: center;
+    color: #BB0A21;
+    font-weight: normal;
+    font-size: 6em;
+}
+
+.tagline *{
+    text-align: center;
+    color: #252627;
+}
+
+.tagline>h2, .tagline>h3{
+    font-weight: normal;
+}
+
+.tagline>h2{
+    font-size: 3em;
+}
+
+.tagline>h3{
+    font-size: 1.5em;
+}
+
+hr.main-hr {
+    width: 700px;
+    color: #252627;
+}
+
+.main-text {
+    max-width: 800px;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }

@@ -12,6 +12,7 @@ ul.navbar {
     position: fixed;
     width: 100%;
     top: 0;
+    height: 57px;
 }
 
 .main-body {
@@ -27,7 +28,7 @@ ul.navbar {
     display: block;
     color: #FFF9FB;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 }
 
@@ -44,16 +45,21 @@ ul.navbar {
     text-align: center;
     color: #BB0A21;
     font-weight: normal;
-    font-size: 6em;
+    font-size: 7em;
+}
+
+.tagline {
+	background: #D3D0CB;
+	padding: 20px 10px;
 }
 
 .tagline *{
     text-align: center;
-    color: #252627;
 }
 
 .tagline>h2, .tagline>h3{
     font-weight: normal;
+    color: #686868;
 }
 
 .tagline>h2{
@@ -136,8 +142,24 @@ hr.main-hr {
 }
 
 .nav-name>span{
-	padding-left: 10px;
+	padding: 10px;
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
+}
+
+.bottom-quote {
+	text-align: center;
+	font-size: 2em;
+	background: #D3D0CB;
+	padding: 20px 10px;
+	color: #686868;
+}
+
+.card {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	max-width: 800px;
+	width: 80%;
+	margin: 10px auto 100px;
+	background: #FFF9FB;
 }

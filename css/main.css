@@ -48,25 +48,25 @@ ul.navbar {
     font-size: 7em;
 }
 
-.tagline {
+.card-top {
 	background: #D3D0CB;
 	padding: 20px 10px;
 }
 
-.tagline *{
+.card-top *{
     text-align: center;
 }
 
-.tagline>h2, .tagline>h3{
+.card-top>h2, .card-top>h3{
     font-weight: normal;
     color: #686868;
 }
 
-.tagline>h2{
+.card-top>h2{
     font-size: 3em;
 }
 
-.tagline>h3{
+.card-top>h3{
     font-size: 1.5em;
 }
 
@@ -76,7 +76,7 @@ hr.main-hr {
     color: #252627;
 }
 
-.main-text {
+.card-body {
     max-width: 800px;
     padding: 50px;
     margin: 0 auto;
@@ -148,7 +148,7 @@ hr.main-hr {
 	line-height: normal;
 }
 
-.bottom-quote {
+.card-bottom {
 	text-align: center;
 	font-size: 2em;
 	background: #D3D0CB;

@@ -16,6 +16,49 @@ $(document).ready(function() {
 		$('.slider-menu').toggleClass('slide-out');
 	});
 
+	$("#contact").submit(function(e){
+        e.preventDefault();
+
+        $("#contact-submit").html("Sending...");
+
+        var formData = {
+        	name: $("#form-name").val(),
+        	email: $("#form-email").val(),
+        	phone: $("#form-phone").val(),
+        	message: $("#form-message").val()
+        }
+        console.log(formData);
+
+        var $inputs = $("#contact").find("input, select, button, textarea");
+        $inputs.prop("disabled", true);
+
+        request = $.ajax({
+	        url: "/contact_post.php",
+	        type: "post",
+	        data: formData
+	    });
+
+	    // Callback handler that will be called on success
+		request.done(function (response, textStatus, jqXHR){
+			// Log a message to the console
+			console.log("Sent");
+			console.log(response);
+			$("#contact-container").addClass("hidden");
+			$("#contact-success").removeClass("hidden");
+		});
+
+		// Callback handler that will be called on failure
+		request.fail(function (jqXHR, textStatus, errorThrown){
+			// Log the error to the console
+			console.error(
+				"The following error occurred: "+
+				textStatus, errorThrown
+			);
+
+
+		});
+    });
+
 
 
 });

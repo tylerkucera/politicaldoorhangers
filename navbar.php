@@ -1,28 +1,30 @@
-<ul class="navbar">
-	<div class='nav-name'>
-		<span>PoliticalDoorhangers.com</span>
-	</div>
+<div class="nav-container">
+	<ul class="navbar">
+		<div class='nav-name'>
+			<span>PoliticalDoorhangers.com</span>
+		</div>
 
-	<li class="hamburger-button hidden">
-		<button class="hamburger hamburger--spin" type="button">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"></span>
-			</span>
-		</button> 
-	</li>
-	<li class="nav-link hidden">
-		<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="testimonials.php">Testimonials</a>
-	</li>
-	<li class="nav-link hidden">
-		<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="contact.php">Contact</a>
-	</li>
-	<li class="nav-link hidden">
-		<a class="<?php if($fileName == "about") echo 'active'; ?>" href="about.php">About Us</a>
-	</li>
-	<li class="nav-link hidden">
-		<a class="<?php if($fileName == "index") echo 'active'; ?>" href="index.php">Home</a>
-	</li>
-</ul>
+		<li class="hamburger-button hidden">
+			<button class="hamburger hamburger--spin" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button> 
+		</li>
+		<li class="nav-link hidden">
+			<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="testimonials.php">Testimonials</a>
+		</li>
+		<li class="nav-link hidden">
+			<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="contact.php">Contact</a>
+		</li>
+		<li class="nav-link hidden">
+			<a class="<?php if($fileName == "about") echo 'active'; ?>" href="about.php">About Us</a>
+		</li>
+		<li class="nav-link hidden">
+			<a class="<?php if($fileName == "index") echo 'active'; ?>" href="index.php">Home</a>
+		</li>
+	</ul>
+</div>
 
 <div class="slider-menu">
 	<ul class='slider-links'>

@@ -166,7 +166,7 @@ hr.main-hr {
 }
 
 .hidden {
-	display: none;
+	display: none !important;
 }
 
 .hamburger:focus {

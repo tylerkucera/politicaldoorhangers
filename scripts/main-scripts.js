@@ -65,7 +65,7 @@ $(document).ready(function() {
 
 function responsiveNav(){
 	// Hamburger button
-	if($(window).width() < 680){
+	if($(window).width() < 765){
 		$('.nav-link').addClass('hidden');
 		$('.hamburger-button').removeClass('hidden');
 		$('.slider-menu').css('top', $('.nav-bar').height() + 'px');

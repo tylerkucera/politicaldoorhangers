@@ -12,16 +12,16 @@
 			</button> 
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="testimonials.php">Testimonials</a>
+			<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="<?php echo dirname()?>\testimonials.php">Testimonials</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="contact.php">Contact</a>
+			<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="<?php echo dirname()?>\contact.php">Contact</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "about") echo 'active'; ?>" href="about.php">About Us</a>
+			<a class="<?php if($fileName == "about") echo 'active'; ?>" href="<?php echo dirname()?>\about.php">About Us</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "index") echo 'active'; ?>" href="index.php">Home</a>
+			<a class="<?php if($fileName == "index") echo 'active'; ?>" href="<?php echo dirname()?>\index.php">Home</a>
 		</li>
 	</ul>
 </div>

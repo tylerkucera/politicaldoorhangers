@@ -11,6 +11,8 @@
         <?php include_once("navbar.php");?>
 
         <div class="main-body">
+
+        	<hr class="stars">
 			
 			<div class="card m-top-30">
 				<div class="card-top">
@@ -29,6 +31,8 @@
 			</div>
 
 		</div>
+
+		<hr class="stars no-top">
 
     </body>
 </html>

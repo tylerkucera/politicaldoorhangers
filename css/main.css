@@ -15,20 +15,65 @@ ul.navbar {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: #4B88A2;
-	font-family: 'Lato', sans-serif;
+	background: #05204A;
+	font-family: 'Josefin Sans', sans-serif;
 	position: fixed;
 	width: 100%;
 	top: 0;
 	height: 57px;
+	z-index: 99;
 }
 
 .main-body {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+span.star:after{
+	content: "\2605";
+    display: inline-block;
+    position: relative;
+    top: -.15em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    color: #FFFFFF;
+    font-size: .7em;
 }
 
 .navbar li {
 	float: right;
+}
+
+hr.stars {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 800px;
+    width: 90%;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.stars:after {
+    content: "\2605";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.stars {
+    border-color: #05204A;
+}
+
+hr.stars:after {
+    color: #05204A;
+    background-color: #FFFFFF;
+}
+
+hr.stars.no-top {
+	margin-top: -50px;
 }
 
 .navbar li a {
@@ -40,12 +85,18 @@ ul.navbar {
 }
 
 .navbar li a:hover:not(.active) {
-	background-color: #D3D4D9;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+	background: #FFFFFF;
 	color: #BB0A21;
 }
 
 .navbar .active {
-	background-color: #203b46;
+	background-color: #0a3d8f;
 }
 
 .main-body h1 {
@@ -55,8 +106,30 @@ ul.navbar {
 	font-size: 7em;
 }
 
+@media only screen and (max-width: 625px) {
+    .main-body h1 {
+        font-size: 6em;
+    }
+
+    .card-body {
+    	padding: 30px !important;
+    }
+
+    .card-top>h2{
+		font-size: 2.5em !important;
+	}
+
+	.card-top>h3{
+		font-size: 1em !important;
+	}
+
+	.card-bottom{
+		font-size: 2em !important;
+	}
+}
+
 .card-top {
-	background: #D3D0CB;
+	background: #05204A;
 	padding: 20px 10px;
 }
 
@@ -66,7 +139,7 @@ ul.navbar {
 
 .card-top>h2, .card-top>h3{
 	font-weight: normal;
-	color: #686868;
+	color: #FFFFFF;
 }
 
 .card-top>h2{
@@ -89,10 +162,15 @@ hr.main-hr {
 	margin: 0 auto;
 	font-size: 1.3em;
 	line-height: 1.5em;
+	font-family: 'Crimson Text', serif;
 }
 
 .hidden {
 	display: none;
+}
+
+.hamburger:focus {
+    outline-width: 0;
 }
 
 .hamburger-inner,
@@ -106,8 +184,9 @@ hr.main-hr {
 	height: 100%;
 	width: 250px;
 	top: 57px;
-	background: #252627;
+	background: #05204A;
 	right: -250px;
+	z-index: 99;
 }
 
 .slider-links {
@@ -116,7 +195,7 @@ hr.main-hr {
 }
 
 .slider-menu .slider-link {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	width: 100%;
 	list-style-type: none;
 	padding: 5px 15px;
@@ -129,44 +208,52 @@ hr.main-hr {
 }
 
 .slider-link.active {
-	background: #D3D4D9;
-}
-
-.slider-link.active>a {
-	color: #252627;
+	background: #0a3d8f;
 }
 
 .slider-link:hover:not(.active) {
-	background-color: #203b46;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+	background-color: #FFFFFF;
+}
+
+.slider-link:hover:not(.active) a {
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+	color: #BB0A21;
 }
 
 .nav-name {
 	display: inline;
 	color: #FFFFFF;
 	font-size: 1.6em;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	height: 100%;
 }
 
-.nav-name>span{
-	padding: 10px;
+.nav-name>a{
+	padding: 17px 10px;
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF
 }
 
 .card-bottom {
 	text-align: center;
 	font-size: 2em;
-	background: #D3D0CB;
+	background: #05204A;
 	padding: 20px 10px;
-	color: #686868;
+	color: #FFFFFF;
 }
 
 .card {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	max-width: 800px;
-	width: 80%;
+	width: 90%;
 	margin: 10px auto 100px;
 	background: #FFFFFF;
 }
@@ -180,7 +267,7 @@ hr.main-hr {
 }
 
 #contact * {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: .85em;
 }
 
@@ -231,7 +318,7 @@ hr.main-hr {
 	cursor: pointer;
 	width: 100%;
 	border: none;
-	background: #4B88A2;
+	background: #05204A;
 	color: #FFF;
 	margin: 0 0 5px;
 	padding: 10px;
@@ -239,7 +326,7 @@ hr.main-hr {
 }
 
 #contact button[type="submit"]:hover {
-	background: #73a8bf;
+	background: #0a3d8f;
 	-webkit-transition: background 0.3s ease-in-out;
 	-moz-transition: background 0.3s ease-in-out;
 	transition: background-color 0.3s ease-in-out;

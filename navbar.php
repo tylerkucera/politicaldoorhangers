@@ -1,7 +1,7 @@
 <div class="nav-container">
 	<ul class="navbar">
 		<div class='nav-name'>
-			<span>PoliticalDoorhangers.com</span>
+			<a href="politicaldoorhangers.com">PoliticalDoorhangers.com</a>
 		</div>
 
 		<li class="hamburger-button hidden">

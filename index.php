@@ -13,10 +13,20 @@
 			
 			<h1>Think Outside The Box.</h1>
 			
+			<hr class="stars">
+
 			<div class="card">
 				<div class="card-top">
-					<h2>Designed - Printed - Delivered</h2>
-					<h3>Never Outsourced - Never Brokered</h3>
+					<h2>
+						Designed
+						<span class="star" aria-hidden="true"></span> 
+						Printed 
+						<span class="star" aria-hidden="true"></span> Delivered
+					</h2>
+					<h3>Never Outsourced 
+						<span class="star" aria-hidden="true"></span>
+						Never Brokered
+					</h3>
 					<h3>Nationwide Distribution</h3>
 				</div>
 
@@ -30,6 +40,8 @@
 					Effective advertising doesn't cost - it pays.
 				</div>
 			</div>
+
+			<hr class="stars no-top">
 
 		</div>
 	</body>

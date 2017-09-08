@@ -69,14 +69,16 @@ function responsiveNav(){
 		$('.nav-link').addClass('hidden');
 		$('.hamburger-button').removeClass('hidden');
 		$('.slider-menu').css('top', $('.nav-bar').height() + 'px');
-		if($(window).width() < 405){
-			$('.nav-name').addClass('hidden');
-		}
 	}else{
 		$('.nav-link').removeClass('hidden');
 		$('.hamburger-button').addClass('hidden');
 		$('.slider-menu').css('right', '-250px');
 		$('.slider-menu').removeClass('slide-out');
 		$('.hamburger').removeClass('is-active');
+	}
+	if($(window).width() < 405){
+		$('.nav-name').addClass('hidden');
+	}else{
+		$('.nav-name').removeClass('hidden');
 	}
 }

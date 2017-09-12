@@ -77,7 +77,11 @@ hr.stars.no-top {
 }
 
 .navbar li a {
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
 	display: block;
+	background: #05204A;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 20px 16px;
@@ -87,7 +91,7 @@ hr.stars.no-top {
 .navbar li a:hover:not(.active) {
 	-webkit-transition: background 0.3s ease-in-out;
 	-moz-transition: background 0.3s ease-in-out;
-	transition: background-color 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
 	-webkit-transition: color 0.3s ease-in-out;
 	-moz-transition: color 0.3s ease-in-out;
 	transition: color 0.3s ease-in-out;
@@ -105,6 +109,16 @@ hr.stars.no-top {
 	font-weight: normal;
 	font-size: 7em;
 }
+
+@media only screen and (max-width: 720px) {
+	.nav-name {
+		font-size: 1.2em !important;
+	}
+	.nav-name a {
+		padding-top: 20px !important;
+	}
+}
+
 
 @media only screen and (max-width: 625px) {
     .main-body h1 {
@@ -125,6 +139,13 @@ hr.stars.no-top {
 
 	.card-bottom{
 		font-size: 2em !important;
+	}
+
+}
+
+@media only screen and (max-width: 345px) {
+	.nav-name {
+		display: none !important;
 	}
 }
 
@@ -340,4 +361,34 @@ hr.main-hr {
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
+}
+
+.lquote {
+	float: left;
+	position: relative;
+	top: 40px;
+}
+
+.rquote {
+	float: right;
+	position: relative;
+	top: 50px;
+}
+
+.lquote,
+.rquote {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 6em;
+	color: #05204A;
+}
+
+.quote-info {
+	text-align: right;
+    font-size: .9em;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }

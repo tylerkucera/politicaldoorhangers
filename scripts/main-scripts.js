@@ -65,7 +65,7 @@ $(document).ready(function() {
 
 function responsiveNav(){
 	// Hamburger button
-	if($(window).width() < 765){
+	if($(window).width() < 625){
 		$('.nav-link').addClass('hidden');
 		$('.hamburger-button').removeClass('hidden');
 		$('.slider-menu').css('top', $('.nav-bar').height() + 'px');
@@ -75,10 +75,5 @@ function responsiveNav(){
 		$('.slider-menu').css('right', '-250px');
 		$('.slider-menu').removeClass('slide-out');
 		$('.hamburger').removeClass('is-active');
-	}
-	if($(window).width() < 405){
-		$('.nav-name').addClass('hidden');
-	}else{
-		$('.nav-name').removeClass('hidden');
 	}
 }

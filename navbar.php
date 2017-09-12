@@ -1,7 +1,8 @@
 <div class="nav-container">
 	<ul class="navbar">
 		<div class='nav-name'>
-			<a href="politicaldoorhangers.com">PoliticalDoorhangers.com</a>
+			<!-- <a href="politicaldoorhangers.com">PoliticalDoorhangers.com</a> -->
+			<a href="/index.php">PoliticalDoorhangers.com</a>
 		</div>
 
 		<li class="hamburger-button hidden">
@@ -12,16 +13,16 @@
 			</button> 
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="<?php echo dirname()?>\testimonials.php">Testimonials</a>
+			<a class="<?php if($fileName == "testimonials") echo 'active'; ?>" href="\testimonials.php">Testimonials</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="<?php echo dirname()?>\contact.php">Contact</a>
+			<a class="<?php if($fileName == "contact") echo 'active'; ?>" href="\contact.php">Contact</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "about") echo 'active'; ?>" href="<?php echo dirname()?>\about.php">About Us</a>
+			<a class="<?php if($fileName == "about") echo 'active'; ?>" href="\about.php">About Us</a>
 		</li>
 		<li class="nav-link hidden">
-			<a class="<?php if($fileName == "index") echo 'active'; ?>" href="<?php echo dirname()?>\index.php">Home</a>
+			<a class="<?php if($fileName == "index") echo 'active'; ?>" href="\index.php">Home</a>
 		</li>
 	</ul>
 </div>

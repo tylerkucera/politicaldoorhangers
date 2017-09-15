@@ -1,16 +1,11 @@
 <?php
 // TODO - change email addresses
-$to      = 'tkucera10@gmail.com';
+$to      = 'dev@PoliticalDoorhangers.com';
 $subject = 'PoliticalDoorhangers: Message from ' . $_POST["name"];
 $message = $_POST["message"] . "\r\nFrom: " . $_POST["name"] . "\r\nEmail: " . $_POST["email"];
-$headers = 'From: tkucera10@gmail.com' . "\r\n" .
-    'Reply-To: tkucera10@gmail.com' . "\r\n" .
+$headers = 'From: dev@PoliticalDoorhangers.com' . "\r\n" .
+    'Reply-To: dev@PoliticalDoorhangers.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-// mail($to, $subject, $message, $headers);
-
-echo json_encode($to);
-echo json_encode($subject);
-echo json_encode($message);
-echo json_encode($headers);
+mail($to, $subject, $message, $headers);
 ?>

@@ -1,6 +1,7 @@
 <!-- Scripts -->
 <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="scripts/main-scripts.js" type="text/javascript"></script>
+<script src="scripts/jquery.elevateZoom-3.0.8.min.js" type="text/javascript"></script>
 <script src="https://use.fontawesome.com/cfa018d175.js"></script>
 
 <!-- Styles -->

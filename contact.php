@@ -20,6 +20,12 @@
 				</div>
 
 				<div class="card-body">
+
+					<p class="center">
+						If you would like to contact us, please fill out the contact form below.
+					</p>
+
+
 					<div id="contact-container">
 						<form id="contact" action="" method="post" name="contact">
 
@@ -51,6 +57,24 @@
 							Thank you for your interest in PoliticalDoorhangers. Your contact form has been submitted and we will be in touch shortly. 
 						</p>
 					</div>
+
+					<p class="center">
+						Or, contact us directly:
+					</p>
+					<p class="center">
+						James Metrakos<br>
+						440-503-3897<br>
+						<a class="content-link" href="mailto:james@politicaldoorhangers.com ?Subject=Political%20Doorhangers%20Inquiry" target="_top">
+							james@politicaldoorhangers.com 
+						</a>
+					</p>
+					<p class="center">
+						Ricky Ferrel<br>
+						216-860-7912<br>
+						<a class="content-link" href="mailto:rick@politicaldoorhangers.com?Subject=Political%20Doorhangers%20Inquiry" target="_top">
+							rick@politicaldoorhangers.com
+						</a>
+					</p>
 				</div>
 
 				<div class='card-bottom'>

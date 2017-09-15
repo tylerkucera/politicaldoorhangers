@@ -40,9 +40,6 @@ $(document).ready(function() {
 
 	    // Callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
-			// Log a message to the console
-			console.log("Sent");
-			console.log(response);
 			$("#contact-container").addClass("hidden");
 			$("#contact-success").removeClass("hidden");
 		});
@@ -59,7 +56,13 @@ $(document).ready(function() {
 		});
     });
 
-
+	$("#just-the-facts-img").elevateZoom(
+		{
+			zoomType: "lens",
+			lensShape: "round",
+			lensSize: 300
+		}
+	);
 
 });
 

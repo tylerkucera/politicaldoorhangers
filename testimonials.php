@@ -37,7 +37,7 @@
 					</p>
 
 					<figure id="just-the-facts">
-						<img id="just-the-facts-img" data-zoom-image="/images/just_the_facts.jpg" src="/images/just_the_facts.jpg">
+						<img id="just-the-facts-img" data-zoom-image="/images/just_the_facts.jpg" src="/images/just_the_facts_sm.jpg">
 						<figcaption>
 							Brendan Delay's Doorhanger Campaign
 							<span class="hide-on-mobile">

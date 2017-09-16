@@ -1,6 +1,6 @@
 <?php
 // TODO - change email addresses
-$to      = 'dev@PoliticalDoorhangers.com';
+$to      = 'james@PoliticalDoorhangers.com';
 $subject = 'PoliticalDoorhangers: Message from ' . $_POST["name"];
 $message = $_POST["message"] . "\r\nFrom: " . $_POST["name"] . "\r\nEmail: " . $_POST["email"];
 $headers = 'From: dev@PoliticalDoorhangers.com' . "\r\n" .

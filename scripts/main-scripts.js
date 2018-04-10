@@ -27,13 +27,12 @@ $(document).ready(function() {
 			phone: $("#form-phone").val(),
 			message: $("#form-message").val()
 		};
-		console.log(formData);
 
 		var $inputs = $("#contact").find("input, select, button, textarea");
 		$inputs.prop("disabled", true);
 
 		request = $.ajax({
-			url: "/contact_post.php",
+			url: "/politicaldoorhangers/contact_post.php",
 			type: "post",
 			data: formData
 		});

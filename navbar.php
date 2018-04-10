@@ -1,7 +1,6 @@
 <div class="nav-container">
 	<ul class="navbar">
 		<div class='nav-name'>
-			<!-- <a href="politicaldoorhangers.com">PoliticalDoorhangers.com</a> -->
 			<a href="/index.php">PoliticalDoorhangers.com</a>
 		</div>
 

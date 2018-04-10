@@ -2,19 +2,20 @@
 <?php $fileName = "contact"; ?>
 
 <html lang="en-US">
-    <head>
-        <title>Political Doorhangers - Contact</title>
-        <?php include_once("header.php");?>
-    </head>
+	<head>
+		<title>Political Doorhangers - Contact</title>
+		<?php include_once("header.php");?>
+	</head>
 
-    <body>
-        <?php include_once("navbar.php");?>
+	<body>
+		<?php include_once("navbar.php");?>
 
-        <div class="main-body">
+		<div class="main-body">
 
-        	<hr class="stars">
-			
+			<hr class="stars">
+
 			<div class="card m-top-30">
+
 				<div class="card-top">
 					<h2>Contact</h3>
 				</div>
@@ -24,7 +25,6 @@
 					<p class="center">
 						If you would like to contact us, please fill out the contact form below.
 					</p>
-
 
 					<div id="contact-container">
 						<form id="contact" action="" method="post" name="contact">
@@ -61,31 +61,30 @@
 					<p class="center">
 						Or, contact us directly:
 					</p>
-					<p class="center">
-						James Metrakos<br>
-						440-503-3897<br>
-						<a class="content-link" href="mailto:james@politicaldoorhangers.com ?Subject=Political%20Doorhangers%20Inquiry" target="_top">
-							james@politicaldoorhangers.com 
-						</a>
-					</p>
-					<p class="center">
-						Ricky Ferrel<br>
-						216-860-7912<br>
-						<a class="content-link" href="mailto:rick@politicaldoorhangers.com?Subject=Political%20Doorhangers%20Inquiry" target="_top">
-							rick@politicaldoorhangers.com
-						</a>
-					</p>
-				</div>
 
-				<div class='card-bottom'>
+					<p class="center">
+						John Smith<br>
+						555-555-5555<br>
+						<a class="content-link" href="mailto:tyler@tylerkucera.com ?Subject=Political%20Doorhangers%20Inquiry" target="_top">
+							email@email.com 
+						</a>
+					</p>
+
+					<p class="center">
+						Jim Smith<br>
+						555-555-5556<br>
+						<a class="content-link" href="mailto:tyler@tylerkucera.com?Subject=Political%20Doorhangers%20Inquiry" target="_top">
+							email2@email.com
+						</a>
+					</p>
 					
 				</div>
-			</div>
 
-			<hr class="stars no-top">
+				<div class='card-bottom'></div>
+			</div>
+		  <hr class="stars no-top">
 
 		</div>
 
-
-    </body>
+	</body>
 </html> 

@@ -1,19 +1,19 @@
- <!DOCTYPE html>
- <?php $fileName = "testimonials"; ?>
+<!DOCTYPE html>
+<?php $fileName = "testimonials"; ?>
 
 <html lang="en-US">
-    <head>
-        <title>Political Doorhangers - Testimonials</title>
-        <?php include_once("header.php");?>
-    </head>
+	<head>
+		<title>Political Doorhangers - Testimonials</title>
+		<?php include_once("header.php");?>
+	</head>
 
-    <body>
-        <?php include_once("navbar.php");?>
+	<body>
+		<?php include_once("navbar.php");?>
 
-        <div class="main-body">
+		<div class="main-body">
 
-        	<hr class="stars">
-			
+			<hr class="stars">
+		
 			<div class="card m-top-30">
 				<div class="card-top">
 					<h2>Testimonials</h3>
@@ -97,5 +97,5 @@
 
 		<hr class="stars no-top">
 
-    </body>
+	</body>
 </html>

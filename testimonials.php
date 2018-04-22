@@ -96,6 +96,6 @@
 		</div>
 
 		<hr class="stars no-top">
-
+		<?php include_once("footer.php");?>
 	</body>
 </html>

@@ -441,3 +441,13 @@ figcaption {
 .center {
 	text-align: center;
 }
+
+.footer p {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #05204A;
+}
+
+.footer p a {
+	color: #05204A;
+}
